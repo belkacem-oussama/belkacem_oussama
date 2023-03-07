@@ -1,17 +1,15 @@
 .presentation_title{
     display: flex;
     justify-content: center;
-    padding: 20px;
-    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 10px;
+}
+
+h1{
+    -webkit-animation: text-shadow-pop-tr 1s both;
+    animation: text-shadow-pop-tr 1s both;
     font-size: 60px;
     color: #93e4c1;
-    -webkit-animation: text-shadow-pop-tr 1s both;
-	        animation: text-shadow-pop-tr 1s both;
-
-
 }
 
  @-webkit-keyframes text-shadow-pop-tr {
