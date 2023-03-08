@@ -41,15 +41,16 @@ margin: 5%;
   }
 
 .presentation_introduction{
-margin: 100px;
 padding: 10%;
 display: flex;
 flex-direction: column;
 background-color: #3baea0;
 width: 100%;
 margin-left: 0;
+
 }
 
+/**activate on scroll*/
 .presentation_introduction_blurred{
 margin: 100px;
 padding: 10%;
@@ -113,6 +114,7 @@ width: 100%;
 padding: 5%;
 color: #93e4c1;
 background-color: #3baea0;
+
 }
 
 .assets{
@@ -131,8 +133,12 @@ animation:keyframes2 2s linear infinite alternate;
 }
 
 @keyframes keyframes2 {
-  from {transform:skew(-5deg);}
-  to   {transform:skew(5deg);}
+  from {
+    transform:rotate(-10deg);
+  }
+  to {
+    transform:rotate(10deg);
+  }
 }
 
 .dev_assets:hover{
@@ -201,8 +207,36 @@ animation:keyframes2 2s linear infinite alternate;
 
 
 .presentation_stack{
-  color: #1f6f78;
+margin-left: auto;
+margin-right: auto;
+font-size: 50px;
+text-align: center;
+width: 100%;
+padding: 10%;
+background-color: #118a7e;
+}
 
+.presentation_stack h2{
+
+text-align: center;
+width: 100%;
+padding: 5%;
+color: #93e4c1;
+background-color: #118a7e;
+}
+
+.presentation_stack ul{
+background-color: #118a7e;
+display: flex;
+justify-content: space-evenly;
+}
+
+.presentation_stack ul li{
+background-color: #118a7e;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 .presentation_hobbies{
