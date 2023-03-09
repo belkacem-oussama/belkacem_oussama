@@ -1,14 +1,5 @@
 ul{
-        border: solid;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-}
-
-.rotate{
-        transform-style: preserve-3d;
-        transition: transform 1.5s;
-        transform: rotateY(180deg);
-        backface-visibility: hidden;
-        cursor: pointer;
 }
