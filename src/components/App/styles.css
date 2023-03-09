@@ -6,3 +6,7 @@
 body{
     background: linear-gradient(#93e4c1, #1f6f78);
 }
+
+::-webkit-scrollbar{
+    display: none;
+}
