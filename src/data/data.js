@@ -1,7 +1,6 @@
 export const datas = [
     {
         title: 'Welcome on my personal page !',
-        introduction: "Dev', Jiu Jitsu Brésilien, Football, Voyage, ... ENCHANTÉ !",
-        hobbies: 'hobbies',
+        introduction: "Coding, Brasilian Jiu Jitsu, Football, Travel, ... ENCHANTÉ !",
     }
 ]

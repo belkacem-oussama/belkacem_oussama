@@ -5,6 +5,8 @@ import Presentation from '../Presentation/Presentation'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import styles from './styles.css'
+import Introduction from '../Introduction/Introduction';
+import Stack from '../Stack/Stack';
 
 export default function App() {
   
@@ -12,6 +14,8 @@ export default function App() {
     <div className='app'>
       <Header />
       <Presentation />
+      <Introduction />
+      <Stack />
     </div>
   )
 }
