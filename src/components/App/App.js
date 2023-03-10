@@ -1,13 +1,20 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
-import Coding from '../Coding/Coding'
+import Error from '../Error/Error'
+import Footer from '../Footer/Footer'
+import Header from '../Header/Header'
 import Home from '../Home/Home'
+import styles from './styles.css'
 
 export default function App() {
   return (
-    <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/coding' element={<Coding />} />
-    </Routes>
+    <div className='app'>
+      <Header />
+      <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='*' element={<Error />} />
+      </Routes>
+      <Footer />
+    </div>
   )
 }
