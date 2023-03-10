@@ -5,6 +5,7 @@ export const datas = [
     },
 
     {
-        description_JKP: 'Here is my first project ! A little game made with JS.Vanilla, I still work on it adding some styles...'
+        description_JKP: 'Here is my first project ! A little game made with JS.Vanilla, I still work on it adding some styles...',
+        description_TDL: 'Here an other project ! A Todolist, a lot of people made it ! I still adding styles...'
     }
 ]
