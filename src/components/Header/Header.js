@@ -11,9 +11,8 @@ function Header() {
           <Nav className="me-auto">
             <Nav.Link href="#">Présentation</Nav.Link>
             <Nav.Link href="#features">Stack</Nav.Link>
-            <Nav.Link href="#pricing">Hobbies</Nav.Link>
             <Nav.Link href="#pricing">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Else</Nav.Link>
+            <Nav.Link href="#pricing">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

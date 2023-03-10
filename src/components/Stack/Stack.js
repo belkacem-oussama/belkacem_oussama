@@ -199,7 +199,7 @@ export default function Stack() {
                         >
                       Languages/Framework</Card.Title>
                           <Card.Text>
-                            PHP for the server, Symfony & Laravel to make it easier !
+                            PHP for the server, Laravel & Symfony to make it easier !
                           </Card.Text>
                       <Button 
                         style={{
