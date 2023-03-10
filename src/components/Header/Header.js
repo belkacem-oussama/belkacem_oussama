@@ -7,12 +7,12 @@ function Header() {
     <>
       <Navbar style={{position:'fixed', zIndex: '100', width: '100%'}}>
         <Container>
-          <Navbar.Brand href="#home">Welcome !</Navbar.Brand>
+          <Navbar.Brand href="/">Welcome !</Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#">Présentation</Nav.Link>
-            <Nav.Link href="#features">Stack</Nav.Link>
-            <Nav.Link href="#pricing">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link to="#">Présentation</Nav.Link>
+            <Nav.Link to="#">Stack</Nav.Link>
+            <Nav.Link to="#">Projects</Nav.Link>
+            <Nav.Link to="#">Contact</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
