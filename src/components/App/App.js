@@ -8,6 +8,7 @@ import styles from './styles.css'
 import Introduction from '../Introduction/Introduction';
 import Stack from '../Stack/Stack';
 import Projects from '../Projects/Projects';
+import Footer from '../Footer/Footer';
 
 export default function App() {
   
@@ -18,6 +19,7 @@ export default function App() {
       <Introduction />
       <Stack />
       <Projects />
+      <Footer />
     </div>
   )
 }

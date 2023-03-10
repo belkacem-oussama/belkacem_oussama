@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './styles.css'
-import Card from 'react-bootstrap/Card';
 import jkpLogo from '../../assets/jankenpon.jpg'
 import tdlLogo from '../../assets/todolist.jpg'
 import itubeLogo from '../../assets/itube.jpg'
