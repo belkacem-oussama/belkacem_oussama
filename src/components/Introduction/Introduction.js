@@ -1,5 +1,4 @@
 import { datas } from '../../data/data.js'
-import Card from 'react-bootstrap/Card'
 
 import dev from '../../assets/dev.jpg'
 import jjb from '../../assets/jjb.png'
