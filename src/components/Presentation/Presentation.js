@@ -6,7 +6,6 @@ export default function Presentation() {
 
     const presentationData = datas;
     const presentationTitle = presentationData.map((data) => data.title)
-    const presentationIntroduction = presentationData.map((data) => data.introduction)
 
   return (
     <div className='presentation'>

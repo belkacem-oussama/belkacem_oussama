@@ -1,5 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
+import Contact from '../Contact/Contact'
 import Error from '../Error/Error'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
@@ -13,6 +14,7 @@ export default function App() {
       <Routes>
           <Route path='/' element={<Home />} />
           <Route path='*' element={<Error />} />
+          <Route path='/contact' element={<Contact />} />
       </Routes>
       <Footer />
     </div>

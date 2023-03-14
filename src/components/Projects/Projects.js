@@ -6,7 +6,6 @@ import itubeLogo from '../../assets/itube.jpg'
 import wtmLogo from '../../assets/wtm.jpg'
 import { datas } from '../../data/data';
 
-
 export default function Projects() {
 
     const projectData = datas
