@@ -1,22 +1,18 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
+import { NavLink } from 'react-router-dom';
+
+import styles from './styles.css'
 
 function Header() {
   return (
-    <>
-      <Navbar style={{position:'fixed', zIndex: '100', width: '100%'}}>
-        <Container>
-          <Navbar.Brand href="/">Welcome !</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link to="#">Présentation</Nav.Link>
-            <Nav.Link to="#">Stack</Nav.Link>
-            <Nav.Link to="#">Projects</Nav.Link>
-            <Nav.Link to="#">Contact</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-    </>
+    <div className='header'>
+      <div className='navbar'>
+        <NavLink to="/" className={'navLink'} >Welcome !</NavLink>
+        <NavLink to="#" className={'navLink'} >Présentation</NavLink>
+        <NavLink to="#" className={'navLink'} >Stack</NavLink>
+        <NavLink to="#" className={'navLink'} >Projects</NavLink>
+        <NavLink to="/contact" className={'navLink'} >Contact</NavLink>
+      </div>
+    </div>
   );
 }
 

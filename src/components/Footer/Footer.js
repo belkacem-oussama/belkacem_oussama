@@ -4,8 +4,12 @@ import Button from 'react-bootstrap/Button';
 
 import linkedIn from '../../assets/linkedin.png'
 import gmail from '../../assets/gmail.png'
+import { useNavigate } from 'react-router-dom';
 
 export default function Footer() {
+
+    let navigate = useNavigate()
+
   return (
     <div className='footer'>
         <Card 
@@ -76,7 +80,10 @@ export default function Footer() {
             </Card.Text>
             <Card.Text>Or, you can send me a message !</Card.Text>
             <Button 
-            variant="primary" 
+            variant="primary"
+            onClick={() => {
+                navigate('/contact')
+            }}
             style={{
                 width:'20%', 
                 marginLeft:'auto', 
