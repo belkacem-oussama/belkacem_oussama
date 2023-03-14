@@ -1,0 +1,26 @@
+.form_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid;
+    padding: 300px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+form label{
+    font-size: 20px;
+}
+
+form button{
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
