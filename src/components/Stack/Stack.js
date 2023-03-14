@@ -11,6 +11,7 @@ import symfonyLogo from'../../assets/symfony.png'
 import laravelLogo from'../../assets/laravel.png'
 import jsLogo from '../../assets/js.png'
 import reactLogo from '../../assets/reactJs.png'
+import reduxLogo from '../../assets/redux.png'
 import gitLogo from '../../assets/git.png'
 import gitHubLogo from '../../assets/github.png'
 import bootstrapLogo from '../../assets/bootstrap.png'
@@ -94,6 +95,7 @@ export default function Stack() {
                 >
                 <Card.Img variant="top" src={jsLogo}/>
                 <Card.Img variant="top" src={reactLogo}/>
+                <Card.Img variant="top" src={reduxLogo}/>
                 </div>
                 <Card.Body
                   style={{
@@ -112,7 +114,7 @@ export default function Stack() {
                       Languages/Library
                     </Card.Title>
                     <Card.Text>
-                      JS for the interaction, React to make it faster !
+                      JS for the interaction, React/Redux to make it faster !
                     </Card.Text>
                 <Button 
                   style={{
