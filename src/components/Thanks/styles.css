@@ -1,0 +1,31 @@
+.thanks{
+    padding: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thanks img{
+    width: 20%;
+    animation: rotate 2s infinite;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.thanks h1{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#navlink{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes rotate {
+    0%,
+    75% {
+        transform: rotateX(360deg);
+    }
+  }

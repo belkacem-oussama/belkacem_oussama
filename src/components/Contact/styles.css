@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: solid;
-    padding: 300px;
+    padding: 200px;
 }
 
 form{
@@ -15,12 +14,48 @@ form{
     width: 50%;
 }
 
+form input {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #333;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  form input:focus {
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+
 form label{
     font-size: 20px;
 }
 
-form button{
-    margin-top: 20px;
-    border-radius: 20px;
-
-}
+form button {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width: 180px;
+    height: 60px;
+    background-color: #f7f7f7;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #333;
+    color: #f7f7f7;
+  }
+  

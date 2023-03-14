@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Thanks from '../Thanks/Thanks'
 
 import styles from './styles.css'
 
@@ -11,6 +12,7 @@ export default function Contact() {
     const [formLocation, setLocation] = useState('')
     const [formHelp, setHelp] = useState('')
     const [formInfos, setInfos] = useState('')
+    const [submited, setSubmited] = useState(false)
 
     const handleNameChange = (e) => {
         setName(e.target.value)
@@ -34,25 +36,34 @@ export default function Contact() {
         setInfos(e.target.value)
     }
 
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        setSubmited(true)
+    }
+
   return (
     <div className='form_container'>
-        <form>
+        {submited ?
+        <Thanks />
+        :
+        <form onSubmit={handleSubmit}>
             <label>Name :</label>
-            <input type='text' name='name' onChange={handleNameChange} value={formName} ></input>
+            <input type='text' name='name' onChange={handleNameChange} value={formName} required ></input>
             <label>Surname :</label>
-            <input type='text' name='subject' onChange={handleSurnameChange} value={formSurname} ></input>
+            <input type='text' name='subject' onChange={handleSurnameChange} value={formSurname} required ></input>
             <label>Phone :</label>
             <input type='text' name='subject' onChange={handlePhoneChange} value={formPhone} ></input>
             <label>Mail :</label>
-            <input type='text' name='subject' onChange={handleMailChange} value={formMail} ></input>
+            <input type='text' name='subject' onChange={handleMailChange} value={formMail} required ></input>
             <label>Location :</label>
             <input type='text' name='subject' onChange={handleLocationChange} value={formLocation} ></input>
             <label>What can I do for you ?</label>
-            <input type='text' name='subject' onChange={handleHelpChange} value={formHelp} ></input>
+            <input type='text' name='subject' onChange={handleHelpChange} value={formHelp} required ></input>
             <label>How did you find this place ?</label>
             <input type='text' name='subject' onChange={handleInfosChange} value={formInfos} ></input>
-            <button>Let's go !</button>
+            <button >Let's go !</button>
         </form>
+        }
     </div>
   )
 }

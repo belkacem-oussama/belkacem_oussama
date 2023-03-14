@@ -75,7 +75,7 @@ export default function Footer() {
                     }}
                 >
                 </img>
-                <a href="mailto:email@example.com" target="_blank">Send me a mail !</a>
+                <a href="mailto:oussama.blkc@gmail.com" target="_blank">Send me a mail !</a>
                 </div>
             </Card.Text>
             <Card.Text>Or, you can send me a message !</Card.Text>
