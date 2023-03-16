@@ -5,7 +5,6 @@ import Error from '../Error/Error'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
-import Thanks from '../Thanks/Thanks'
 
 import styles from './styles.css'
 
