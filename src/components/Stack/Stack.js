@@ -1,4 +1,3 @@
-import { datas } from '../../data/data.js'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button';
 

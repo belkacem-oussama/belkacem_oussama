@@ -11,8 +11,6 @@
     "react-bootstrap": "^2.7.2",
     "react-bootstrap-validation": "^0.1.11",
     "react-dom": "^18.2.0",
-    "react-lorem-ipsum": "^1.4.10",
-    "react-mailto": "^0.4.0",
     "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"

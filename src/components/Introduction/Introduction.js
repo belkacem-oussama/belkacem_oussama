@@ -1,4 +1,4 @@
-import { datas } from '../../data/data.js'
+import {  } from '../../data/data.js'
 
 import dev from '../../assets/dev.jpg'
 import jjb from '../../assets/jjb.png'
@@ -9,12 +9,9 @@ import styles from './styles.css'
 
 export default function Introduction() {
 
-    const presentationData = datas;
-    const presentationIntroduction = presentationData.map((data) => data.introduction)
-
   return (
         <div className= 'presentation_introduction'>
-          <p className='presentation_introduction_paragraphe'>{presentationIntroduction}</p>
+          <p className='presentation_introduction_paragraphe'>Coding, Brasilian Jiu Jitsu, Football, Travel, ... WELCOME !</p>
           <div className='assets'>
             <img className='dev_assets' src={dev}></img>
             <img className='dev_assets' src={jjb}></img>
