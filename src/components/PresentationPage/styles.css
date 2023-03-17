@@ -1,3 +1,8 @@
+.text_div{
+    padding: 10%;
+}
+
 .text_introduction{
-    padding: 20%;
+    padding: 10%;
+    border: solid;
 }

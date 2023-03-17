@@ -6,8 +6,14 @@ export default function PresentationPage() {
     const presentationData = presentationText
 
   return (
-        presentationData.map(text => (
-            <div className='text_introduction'>{text.introduction}</div>
-        ))
+      <div className='text_div'>
+          {presentationData.map(element => (
+            <div className='text_introduction'>
+                <h1>Me !</h1>
+                <p>{element.introduction}</p>
+                <a href={element.formation_link} target="_blank">Formation suivie chez O'clock !</a>
+            </div>
+            ))}
+      </div>
   )
 }
