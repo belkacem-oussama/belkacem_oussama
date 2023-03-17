@@ -61,7 +61,7 @@ export default function Contact() {
             <input type='text' name='subject' onChange={handleHelpChange} value={formHelp} required ></input>
             <label>How did you find this place ?</label>
             <input type='text' name='subject' onChange={handleInfosChange} value={formInfos} ></input>
-            <button >Let's go !</button>
+            <button className='button' >Let's go !</button>
         </form>
         }
     </div>

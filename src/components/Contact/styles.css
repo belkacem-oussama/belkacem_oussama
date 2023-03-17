@@ -38,7 +38,7 @@ form label{
     font-size: 20px;
 }
 
-form button {
+.button {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -54,7 +54,7 @@ form button {
     transition: background-color 0.3s ease;
   }
   
-  form button:hover {
+  .button:hover {
     background-color: #333;
     color: #f7f7f7;
   }

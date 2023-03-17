@@ -18,6 +18,7 @@ export default function Introduction() {
             <img className='dev_assets' src={football}></img>
             <img className='dev_assets' src={travel}></img>
           </div>
+          <button className='button' >Click here to see more !</button>
         </div>
   )
 }
