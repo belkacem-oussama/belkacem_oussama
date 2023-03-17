@@ -7,7 +7,7 @@ function Header() {
     <div className='header'>
       <div className='navbar'>
         <NavLink to="/" className={'navLink'} >Welcome !</NavLink>
-        <NavLink to="#" className={'navLink'} >Présentation</NavLink>
+        <NavLink to="/presentation" className={'navLink'} >Présentation</NavLink>
         <NavLink to="#" className={'navLink'} >Stack</NavLink>
         <NavLink to="#" className={'navLink'} >Projects</NavLink>
         <NavLink to="/contact" className={'navLink'} >Contact</NavLink>

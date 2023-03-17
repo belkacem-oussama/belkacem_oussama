@@ -5,6 +5,7 @@ import Error from '../Error/Error'
 import Footer from '../Footer/Footer'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
+import PresentationPage from '../PresentationPage/PresentationPage'
 
 import styles from './styles.css'
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route path='/' element={<Home />} />
           <Route path='*' element={<Error />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/presentation' element={<PresentationPage />} />
       </Routes>
       <Footer />
     </div>
