@@ -1,4 +1,3 @@
-import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Contact from '../Contact/Contact'
 import Error from '../Error/Error'
