@@ -3,8 +3,9 @@
     overflow-x: hidden;
 }
 
-.app{
-    background: linear-gradient(#93e4c1, #1f6f78);
+html{
+    height: 100%;
+    background: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
 }
 
 ::-webkit-scrollbar{

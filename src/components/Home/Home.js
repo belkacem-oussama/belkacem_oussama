@@ -1,20 +1,13 @@
-import Presentation from '../Presentation/Presentation'
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-import Introduction from '../Introduction/Introduction';
-import Stack from '../Stack/Stack';
-import Projects from '../Projects/Projects';
-
+import styles from './styles.css'
 
 export default function Home() {
-  
+
   return (
-    <div className='home'>
-      <Presentation />
-      <Introduction />
-      <Stack />
-      <Projects />
+    <div className='presentation'>
+      
+        <div className='presentation_title'>
+          <h1 className='title'>Welcome on my personal page !</h1>
+        </div>
     </div>
   )
 }
