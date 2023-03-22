@@ -17,9 +17,9 @@ function BasicExample(props) {
     >
       <Card.Img variant="top" src={image} style={{width:'100%'}} />
       <Card.Body>
-        <Card.Title>{title}</Card.Title>
-        <Card.Text>{text}</Card.Text>
-        <Button variant="primary">Show more !</Button>
+        <Card.Title className='card_title' >{title}</Card.Title>
+        <Card.Text className='card_text' >{text}</Card.Text>
+        <Button variant="primary" className='card_button' >Show more !</Button>
       </Card.Body>
     </Card>
   );
