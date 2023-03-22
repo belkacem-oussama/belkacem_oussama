@@ -16,9 +16,6 @@ function BasicExample(props) {
   }
 
   return (
-    <div className='flip-card'>
-      <div className='flip-card-inner'>
-        <div className='flip-card-front'>
           <Card 
           style={{
             width: '30rem', 
@@ -40,37 +37,6 @@ function BasicExample(props) {
               </Button>
             </Card.Body>
           </Card>
-          {
-            showMore ? 
-          <div className='flip-card-back'>
-          <Card 
-          style={{
-            width: '30rem', 
-            border:'solid 2px grey', 
-            padding:'10px', 
-            borderRadius:'10px' 
-            }}
-          >
-            <Card.Img variant="top" src={image} style={{width:'100%'}} />
-            <Card.Body>
-              <Card.Title className='card_title' >{title}</Card.Title>
-              <Card.Text className='card_text' >{text}</Card.Text>
-              <Button 
-                variant="primary" 
-                className='card_button' 
-                onClick={handleShowMore}
-              >
-                Show more !
-              </Button>
-            </Card.Body>
-          </Card>
-          </div>
-          :
-          null
-          }   
-        </div>
-      </div>
-    </div>
   );
 }
 
