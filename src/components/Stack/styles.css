@@ -1,3 +1,9 @@
-li:hover{
-	transform: scale(2);
+.cards{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid;
 }
