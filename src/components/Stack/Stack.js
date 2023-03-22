@@ -16,7 +16,7 @@ export default function Stack() {
       <Card 
         title='Back-End'
         image={backLogo}
-        text= 'For the server !' 
+        text= 'For the security !' 
       />
       <Card 
         title='Front-End'
