@@ -1,15 +1,24 @@
 import Card from './Card/Card.js'
 import styles from './styles.css'
+
 import frontLogo from '../../assets/front.jpg'
 import backLogo from '../../assets/back.jpg'
 import toolLogo from '../../assets/tools.jpg'
 
+import jsLogo from '../../assets/js.png'
+import reactLogo from '../../assets/reactJs.png'
+import reduxLogo from '../../assets/redux.png'
+
+import phpLogo from '../../assets/php.png'
+import symfoLogo from '../../assets/symfony.png'
+import laravelLogo from '../../assets/laravel.png'
+
+import gitLogo from '../../assets/git.png'
+import gitHubLogo from '../../assets/github.png'
+import bootstrapLogo from '../../assets/bootstrap.png'
+
 
 export default function Stack() {
-
-  const handleShowMoreValue = (showMoreValue) => {
-    console.log(showMoreValue);
-  }
 
   return (
     <div className='cards'>
@@ -17,7 +26,31 @@ export default function Stack() {
         title='Front-End'
         image={frontLogo}
         text= 'For the interaction !'
-        onShowMoreChange = {handleShowMoreValue}
+        backTitle = 'JavaScript Technologies'
+        backText = 'JS for the interaction, ReactJS and Redux for the speed !'
+        backImage1 = {jsLogo}
+        backImage2 = {reactLogo}
+        backImage3 = {reduxLogo}
+      />
+      <Card 
+        title='Back-End'
+        image={backLogo}
+        text= 'For the security and other features !'
+        backTitle = 'PHP Technologies'
+        backText = 'PHP for the server & security, Symony/Laravel to make it faster !'
+        backImage1 = {phpLogo}
+        backImage2 = {symfoLogo}
+        backImage3 = {laravelLogo}
+      />
+      <Card 
+        title='Tools'
+        image={toolLogo}
+        text= 'To help me !'
+        backTitle = 'Other Technologies'
+        backText = 'Git to save my code, GitHub to stock it and Bootstrap to save time !'
+        backImage1 = {gitLogo}
+        backImage2 = {gitHubLogo}
+        backImage3 = {bootstrapLogo}
       />
     </div>
   )
