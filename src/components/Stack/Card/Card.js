@@ -2,7 +2,6 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import PropTypes from 'prop-types';
 import { useState } from 'react';
-import styls from './styles.css'
 
 function BasicExample( props ) {
 
