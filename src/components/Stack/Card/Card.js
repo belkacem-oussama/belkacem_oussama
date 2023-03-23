@@ -26,7 +26,7 @@ function BasicExample( props ) {
               border:'solid 2px grey', 
               padding:'10px', 
               borderRadius:'10px' 
-              }}
+            }}
             >
               <Card.Img variant="top" src={image} style={{width:'100%'}} />
               <Card.Body>
@@ -86,6 +86,11 @@ BasicExample.propTypes = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   image: PropTypes.string.isRequired,
+  backTitle: PropTypes.string.isRequired,
+  backText: PropTypes.string.isRequired, 
+  backImage1: PropTypes.string.isRequired, 
+  backImage2: PropTypes.string.isRequired, 
+  backImage3: PropTypes.string.isRequired
 };
 
 export default BasicExample;
