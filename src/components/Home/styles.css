@@ -1,9 +1,3 @@
-.presentation_title{
-display: flex;
-margin-left: auto;
-margin-right: auto;
-}
-
 .title{
 -webkit-animation: text-shadow-pop-tr 1s both;
 animation: text-shadow-pop-tr 1s both;
