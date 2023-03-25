@@ -3,6 +3,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     height: 100%;
+    margin-bottom: 100%;
 }
 
 .projects_card{
@@ -47,7 +48,7 @@
 
 .projects_card_text{
     width: 100%;
-    font-size: 16px;
+    font-size: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -68,3 +69,29 @@
     color: #9890e3;
 
 }
+
+@media (max-width: 1064px) {
+    .projects_card_text{
+        font-size: 70%;
+    }
+  }
+
+@media (max-width: 934px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        border: solid 2px grey;
+        border-radius: 1rem;
+        height: 100%;
+        width: 90%;
+        margin: 2%;
+        font-size: 100%;
+    }
+  }
