@@ -26,7 +26,7 @@ export const datas = [
         picture: tdlLogo
     },
     {
-        title: 'What\'s the movie ?',
+        title: 'What\'s the movie',
         description:'A team project !',
         link: '',
         tech: 'React, Redux, Symfony, Bootstrap',

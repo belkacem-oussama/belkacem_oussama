@@ -1,5 +1,5 @@
-import Card from './Card/Card.js'
 import styles from './styles.css'
+import CardComponent from './Card/Card.js'
 
 import frontLogo from '../../assets/front.jpg'
 import backLogo from '../../assets/back.jpg'
@@ -22,7 +22,7 @@ export default function Stack() {
 
   return (
     <div className='cards'>
-      <Card 
+      <CardComponent 
         title='Front-End'
         image={frontLogo}
         text= 'For the interaction !'
@@ -32,7 +32,7 @@ export default function Stack() {
         backImage2 = {reactLogo}
         backImage3 = {reduxLogo}
       />
-      <Card 
+      <CardComponent
         title='Back-End'
         image={backLogo}
         text= 'For features !'
@@ -42,7 +42,7 @@ export default function Stack() {
         backImage2 = {symfoLogo}
         backImage3 = {laravelLogo}
       />
-      <Card 
+      <CardComponent
         title='Tools'
         image={toolLogo}
         text= 'To help me !'

@@ -14,7 +14,7 @@ const projectDatas = datas
                 <div className='projects_card_text'>
                     <h1>{project.title}</h1>
                     <p>{project.description}</p>
-                    <p>{project.tech}</p>
+                    <p style={{fontWeight: 'bold'}} >{project.tech}</p>
                     <a href={project.link} target="_blank">You can try it here !</a>
                 </div>
             </div>
