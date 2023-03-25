@@ -2,6 +2,7 @@
     background-color: transparent;
     display: flex;
     justify-content: right;
+    margin-bottom: 1%;
 }
 
 .navbar {
