@@ -35,7 +35,7 @@ export default function Stack() {
       <Card 
         title='Back-End'
         image={backLogo}
-        text= 'For the security and other features !'
+        text= 'For features !'
         backTitle = 'PHP Technologies'
         backText = 'PHP for the server & security, Symony/Laravel to make it faster !'
         backImage1 = {phpLogo}

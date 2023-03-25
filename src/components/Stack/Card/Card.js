@@ -20,14 +20,14 @@ function BasicExample( props ) {
               display: 'flex',
               flexDirection: 'column',
               justifyContent: 'space-between',
-              width: '30rem',
-              height: '45rem',
+              width: '20rem',
+              height: '35rem',
               border:'solid 2px grey', 
-              padding:'10px', 
+              padding:'1%', 
               borderRadius:'10px' 
             }}
             >
-              <Card.Img variant="top" src={image} style={{width:'100%'}} />
+              <Card.Img variant="top" src={image} />
               <Card.Body>
                 <Card.Title className='card_title' >{title}</Card.Title>
                 <Card.Text className='card_text' >{text}</Card.Text>
@@ -46,10 +46,10 @@ function BasicExample( props ) {
                 display: 'flex',
                 flexDirection: 'column',
                 justifyContent: 'space-between',
-                width: '30rem',
-                height: '45rem',
+                width: '20rem',
+                height: '35rem',
                 border:'solid 2px grey', 
-                padding:'10px', 
+                padding:'1%', 
                 borderRadius:'10px' 
                 }}
               >
