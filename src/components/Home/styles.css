@@ -1,16 +1,16 @@
+.presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 200%;
+}
+
 .title{
 -webkit-animation: text-shadow-pop-tr 1s both;
 animation: text-shadow-pop-tr 1s both;
 font-size: 10vw;
 text-align: center;
 color: #93e4c1;
-margin-bottom: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  .title{
-    font-size: 16vw;
-  }
 }
 
  @-webkit-keyframes text-shadow-pop-tr {
