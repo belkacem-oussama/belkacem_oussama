@@ -15,18 +15,7 @@ function CardComponent( props ) {
 
   return (
           showMore ?
-            <Card 
-            style={{
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              width: '25%',
-              height: '50%',
-              border:'solid 2px grey', 
-              padding:'1rem', 
-              borderRadius:'1rem' 
-            }}
-            >
+            <Card className='cards_principal'>
               <Card.Img variant="top" src={image} style={{borderRadius: '1rem'}} />
               <Card.Body>
                 <Card.Title className='card_title' >{title}</Card.Title>
@@ -36,23 +25,12 @@ function CardComponent( props ) {
                   className='card_button' 
                   onClick={handleShowMore}
                 >
-                  Show more
+                  Discover
                 </Button>
               </Card.Body>
             </Card>
             :
-              <Card 
-              style={{
-                display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'space-between',
-              width: '25%',
-              height: '50%',
-              border:'solid 2px grey', 
-              padding:'1rem', 
-              borderRadius:'1rem' 
-                }}
-              >
+            <Card className='cards_principal'>
               <div 
                 className='img' 
                 style={{
@@ -62,9 +40,9 @@ function CardComponent( props ) {
                   width: '100%'
                 }} 
               >
-                <Card.Img variant="top" src={backImage1} style={{width:'30%'}} />
-                <Card.Img variant="top" src={backImage2} style={{width:'30%'}} />
-                <Card.Img variant="top" src={backImage3} style={{width:'30%'}} />
+                <Card.Img variant="top" src={backImage1} />
+                <Card.Img variant="top" src={backImage2} />
+                <Card.Img variant="top" src={backImage3} />
               </div>
                 
                 <Card.Body>

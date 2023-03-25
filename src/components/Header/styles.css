@@ -1,15 +1,12 @@
 .header{
   background-color: transparent;
   display: flex;
-  justify-content: right;
   margin-bottom: 1%;
 }
 
 .navbar {
   display: flex;
   justify-content: space-evenly;
-  width: 80%;
-  max-width: 600px;
 }
 
 .navLink {
