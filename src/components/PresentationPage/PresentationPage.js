@@ -6,6 +6,7 @@ import linkedInLogo from '../../assets/linkedin.png'
 import gmailLogo from '../../assets/gmail.png'
 import twitterLogo from '../../assets/twitter.png'
 import gitHubLogo from '../../assets/github.png'
+import cvLogo from '../../assets/cv.png'
 
 export default function PresentationPage() {
 
@@ -25,6 +26,7 @@ export default function PresentationPage() {
                 <a href='mailto:oussama.blkc@gmail.com'><img src={gmailLogo}></img></a>
                 <a href='https://twitter.com/ob__tech' target='_blank'><img src={twitterLogo}></img></a>
                 <a href='https://github.com/belkacem-oussama' target='_blank'><img src={gitHubLogo}></img></a>
+                <a href='https://drive.google.com/file/d/1lj8lsIGpzkNVcTcqE2B9hGs_Y1Bg1OBB/view?usp=sharing' target='_blank'><img src={cvLogo}></img></a>
               </div>
             </div>
             ))}
