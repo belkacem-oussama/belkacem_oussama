@@ -7,14 +7,14 @@ export const datas = [
     {
         title: 'Jan-Ken-Pon !',
         description:'A little game !',
-        link: '',
+        link: 'https://belkacem-oussama.github.io/Jan_Ken_Pon/',
         tech: 'Vanilla JS',
         picture: jpkLogo
     },
     {
         title: 'Itube',
         description:'Thanks to Google API !',
-        link: '',
+        link: 'https://github.com/belkacem-oussama/ITube',
         tech: 'React, MUI',
         picture: itubeLogo
     },
