@@ -43,6 +43,7 @@ export default function Contact() {
 
   return (
     <div className='form_container'>
+        <p>Si tu as remarqué un bug, si tu as une question ou si tu t'ennuuies tu peux me contacter via ce formulaire &#128513; </p>
         {submited ?
         <Thanks />
         :
