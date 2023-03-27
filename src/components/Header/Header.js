@@ -42,7 +42,7 @@ export default function NavBar(){
               <NavLink to="/presentation" className={'navLink'} onClick={hideMenu} >Me !</NavLink>
               <NavLink to="/stack" className={'navLink'} onClick={hideMenu} >Stack</NavLink>
               <NavLink to="/projects" className={'navLink'} onClick={hideMenu} >Projects</NavLink>
-              <NavLink to="/contact" className={'navLink'} onClick={hideMenu} >Contact</NavLink>
+              {/* <NavLink to="/contact" className={'navLink'} onClick={hideMenu} >Contact</NavLink> */}
               </div>
             </div>
         </div>

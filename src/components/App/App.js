@@ -1,5 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
-import Contact from '../Contact/Contact'
+// import Contact from '../Contact/Contact'
 import Error from '../Error/Error'
 import Header from '../Header/Header'
 import Home from '../Home/Home'
@@ -18,7 +18,7 @@ export default function App() {
           <Route path='/' element={<Home />} />
           <Route path='/stack' element={<Stack />} />
           <Route path='/projects' element={<Projects />} />
-          <Route path='/contact' element={<Contact />} />
+          {/* <Route path='/contact' element={<Contact />} /> */}
           <Route path='/presentation' element={<PresentationPage />} />
       </Routes>
     </div>
