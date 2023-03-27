@@ -6,6 +6,10 @@
   margin-bottom: 100%;
 }
 
+.form_container p{
+  text-align: center;
+}
+
 form{
   display: flex;
   flex-direction: column;
