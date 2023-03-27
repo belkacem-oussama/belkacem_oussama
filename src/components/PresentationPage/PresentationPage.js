@@ -1,5 +1,5 @@
 import { presentationText } from '../../data/presentation'
-import styles from './styles.css'
+import styles from './styles.scss'
 
 import codeLogo from '../../assets/code.jpg'
 import linkedInLogo from '../../assets/linkedin.png'

@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import error from '../../assets/404.png'
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default function Error() {
   return (

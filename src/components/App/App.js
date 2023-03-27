@@ -7,7 +7,7 @@ import PresentationPage from '../PresentationPage/PresentationPage'
 import Projects from '../Projects/Projects'
 import Stack from '../Stack/Stack'
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default function App() {
   return (

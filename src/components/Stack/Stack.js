@@ -1,4 +1,4 @@
-import styles from './styles.css'
+import styles from './styles.scss'
 import CardComponent from './Card/Card.js'
 
 import frontLogo from '../../assets/front.jpg'

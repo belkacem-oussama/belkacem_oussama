@@ -1,0 +1,13 @@
+@use '../../styles/_vars';
+
+*{  
+  font-family: vars.$fontFredoka;
+}
+
+html{
+  background:no-repeat linear-gradient(to bottom right, vars.$principalColor, vars.$secondaryColor);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}

@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom'
 
 import thanksLogo from '../../assets/thanks.png'
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default function Thanks() {
   return (

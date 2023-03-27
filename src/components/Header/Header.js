@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import { NavLink } from "react-router-dom";
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default function NavBar(){
 

@@ -1,3 +1,5 @@
+@use '../../styles/_vars';
+
 .projects{
     display: flex;
     flex-direction: row;
@@ -56,17 +58,17 @@
 }
 
 .projects_card_text h1{
-    color: #9890e3;
+    color: vars.$titleColor;
 
 }
 
 .projects_card_text p{
-    color: white;
+    color: vars.$paragrapheColor;
 
 }
 
 .projects_card_text a{
-    color: #9890e3;
+    color: vars.$textColor;
 
 }
 

@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Thanks from '../Thanks/Thanks'
 
-import styles from './styles.css'
+import styles from './styles.scss'
 
 export default function Contact() {
 
