@@ -19,7 +19,6 @@ export default function PresentationPage() {
               <div className='text_introduction_text'>
               <h1>Me !</h1>
                 <p>{element.introduction} &#128516;</p>
-                <a href={element.formation_link} target="_blank">Formation suivie chez O'clock !</a>
                 <p>(N'hésite pas à découvrir mes réseaux ou mon cv)</p>
               </div>
               <div className='text_introduction_socials'>

@@ -4,7 +4,7 @@
   justify-content: center;
   margin-bottom: 200%;
   -webkit-animation: heartbeat 2s ease-in-out infinite both;
-	animation: heartbeat 5s ease-in-out infinite both;
+  animation: heartbeat 5s ease-in-out infinite both;
 }
 
  @-webkit-keyframes heartbeat {
