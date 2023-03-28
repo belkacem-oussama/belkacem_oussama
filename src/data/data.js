@@ -28,7 +28,7 @@ export const datas = [
     {
         title: 'What\'s the movie',
         description:'A team project !',
-        link: 'https://whatsthemovie.surge.sh/',
+        link: 'https://whats-the-movie.timothe-bequet.fr',
         tech: 'React, Redux, Symfony, Bootstrap',
         picture: wtmLogo
     },
