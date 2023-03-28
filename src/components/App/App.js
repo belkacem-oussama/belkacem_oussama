@@ -18,7 +18,7 @@ export default function App() {
     setTimeout(()=> {
       root.style.display = "none";
       setLoading(false)
-    },2000)
+    },3000)
   }
 
   return (
