@@ -1,7 +1,9 @@
+@use '../src/styles/_vars.scss';
+
 .loading {
     -webkit-animation: sk-scaleout 1s infinite ease-in-out;
     animation: sk-scaleout 1s infinite ease-in-out;
-    background-color: #124c62;
+    background-color: yellow;
     border-radius: 100%;
     height: 6em;
     width: 6em;
