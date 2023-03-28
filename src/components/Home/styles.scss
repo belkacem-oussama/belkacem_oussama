@@ -1,10 +1,13 @@
 @use '../../styles/_vars';
 
 .presentation{
+        height: 100vh;
+}
+
+.presentation_title{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 200%;
   -webkit-animation: heartbeat 2s ease-in-out infinite both;
   animation: heartbeat 5s ease-in-out infinite both;
   padding: 1%;
@@ -79,6 +82,13 @@
   }
 }
 
+.presentation p{
+        color: vars.$secondaryColor;
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+    }
+    
 
 .title{
 -webkit-animation: text-shadow-pop-tr 1s both;
