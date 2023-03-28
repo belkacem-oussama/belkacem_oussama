@@ -7,6 +7,8 @@
   margin-bottom: 200%;
   -webkit-animation: heartbeat 2s ease-in-out infinite both;
   animation: heartbeat 5s ease-in-out infinite both;
+  border: solid;
+  padding: 1%;
 }
 
  @-webkit-keyframes heartbeat {
