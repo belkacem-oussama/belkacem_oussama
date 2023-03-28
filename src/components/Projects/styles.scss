@@ -97,7 +97,12 @@
 
 .projects_card_text a{
     color: vars.$textColor;
+    text-decoration: none;
+}
 
+.projects_card_text a:hover{
+  color: vars.$titleColor;
+  text-decoration: underline;
 }
 
 @media (max-width: 1064px) {
