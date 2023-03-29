@@ -18,13 +18,13 @@ export const datas = [
         tech: 'React, MUI',
         picture: itubeLogo
     },
-    {
-        title: 'TodoList',
-        description:'The famous !',
-        link: '',
-        tech: 'React',
-        picture: tdlLogo
-    },
+    // {
+    //     title: 'TodoList',
+    //     description:'The famous !',
+    //     link: '',
+    //     tech: 'React',
+    //     picture: tdlLogo
+    // },
     {
         title: 'What\'s the movie',
         description:'A team project !',
