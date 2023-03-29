@@ -42,7 +42,7 @@ export default function PresentationPage() {
         <h2><span className='status_title'>I'm a </span><span className='status_name'>{statusName}</span></h2>
         <div className='text_div_presentation'>
           {presentationData.map(element => (
-            <div className='text_introduction'>
+            <div className='text_introduction' key={element.id} >
               <div className='text_introduction_text'>
               <br></br>
                 <p>{element.introduction} &#128516;</p>
