@@ -10,7 +10,7 @@
   justify-content: center;
   -webkit-animation: heartbeat 2s ease-in-out infinite both;
   animation: heartbeat 5s ease-in-out infinite both;
-  padding: 1%;
+  padding: 3%;
 }
 
  @-webkit-keyframes heartbeat {
@@ -123,3 +123,32 @@ color: vars.$secondaryColor;
     }
   }
 
+  h3{
+        color: vars.$secondaryColor;
+  }
+
+ @-webkit-keyframes slide-in-top {
+        0% {
+          -webkit-transform: translateY(-1000px);
+                  transform: translateY(-1000px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      @keyframes slide-in-top {
+        0% {
+          -webkit-transform: translateY(-1000px);
+                  transform: translateY(-1000px);
+          opacity: 0;
+        }
+        100% {
+          -webkit-transform: translateY(0);
+                  transform: translateY(0);
+          opacity: 1;
+        }
+      }
+      

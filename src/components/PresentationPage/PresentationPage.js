@@ -1,4 +1,5 @@
 import { presentationText } from '../../data/presentation'
+import { useState, useEffect } from 'react'
 import styles from './styles.scss'
 
 import codeLogo from '../../assets/code.jpg'
@@ -10,16 +11,44 @@ import cvLogo from '../../assets/cv.png'
 
 export default function PresentationPage() {
 
-    const presentationData = presentationText
+  const presentationData = presentationText
+
+  const [statusIndex, setStatusIndex] = useState(0)
+
+  const statusArray = [
+    'Web Developper',
+    'Front-End Developper',
+    'Back-End Developper',
+    'Man',
+    'Footballer',
+    'Jiu-Jitsu Ka',
+    'Français oui oui'
+  ]
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      setStatusIndex((statusIndex + 1) % statusArray.length)
+    }, 2500)
+
+    return () => {
+      clearTimeout(timerId)
+    }
+  }, [statusIndex])
+
+  const statusName = statusArray[statusIndex]
 
   return (
       <div className='text_div'>
+        <h2><span className='status_title'>I'm a </span><span className='status_name'>{statusName}</span></h2>
+        <div className='text_div_presentation'>
           {presentationData.map(element => (
-            <div className='text_introduction'>
+            <div className='text_introduction' key={element.id} >
               <div className='text_introduction_text'>
-              <h1>Me !</h1>
+              <br></br>
                 <p>{element.introduction} &#128516;</p>
+                <br></br>
                 <p>(N'hésite pas à découvrir mes réseaux ou mon cv)</p>
+                <br></br>
               </div>
               <div className='text_introduction_socials'>
                 <a href='https://www.linkedin.com/in/oussama-belkacem-767717196/' target='_blank'><img src={linkedInLogo}></img></a>
@@ -31,6 +60,7 @@ export default function PresentationPage() {
             </div>
             ))}
             <div className='text_pic'><img src={codeLogo}></img></div>
+        </div>
       </div>
   )
 }

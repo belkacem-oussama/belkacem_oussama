@@ -2,17 +2,38 @@
 
 .text_div{
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     border: solid 2px grey;
     border-radius: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding: 2%;
+    padding: 3%;
+    margin: 1%;
     margin-bottom: 100%;
     -webkit-animation: bounce-in-top 1.1s both;
     animation: bounce-in-top 1.1s both;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.text_div .status_title{
+        color: vars.$secondaryColor;
+}
+
+.text_div .status_name{
+        color: vars.$paragrapheColor;
+}
+
+
+.text_div_presentation{
+        display: flex;
+}
+
+.text_div h2{
+        color: vars.$secondaryColor;
+        width: 100%;
+        text-align: left;
 }
 
 @-webkit-keyframes bounce-in-top {
@@ -129,16 +150,12 @@
     font-size: 1rem;
 }
 
-.text_introduction_text h1{
-        color: vars.$titleColor;
-}
-
 .text_introduction_text p{
         color: vars.$paragrapheColor
 }
 
 .text_introduction_socials img{
-    width: 10%;
+    width: 20%;
     border-radius: 100%;
     margin-top: 5%;
 }
