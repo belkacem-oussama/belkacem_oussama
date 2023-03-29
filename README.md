@@ -2,6 +2,9 @@
 
 Salut ! 
 
-Voici mon portfolio, tu peux le consulter à l'adresse suivante : https://main--fascinating-cascaron-a7a484.netlify.app/
+Voici mon portfolio, tu peux le consulter en cliquant [ici](https://main--fascinating-cascaron-a7a484.netlify.app/)
 
-Technos : React.JS, Bootstrap, SCSS
+**Technos** :
+- React.JS
+- SCSS
+- ReactBootstrap
