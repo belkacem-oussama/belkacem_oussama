@@ -22,11 +22,11 @@ export default function Stack() {
 
   return (
     <div className='cards'>
-      <CardComponent 
+      <CardComponent
         title='Front-End'
         image={frontLogo}
         text= 'For the interaction !'
-        backTitle = 'JavaScript Technologies'
+        backTitle = 'JavaScript'
         backText = 'JS for the interaction, ReactJS and Redux for the speed !'
         backImage1 = {jsLogo}
         backImage2 = {reactLogo}
@@ -36,7 +36,7 @@ export default function Stack() {
         title='Back-End'
         image={backLogo}
         text= 'For features !'
-        backTitle = 'PHP Technologies'
+        backTitle = 'PHP'
         backText = 'PHP for the server & security, Symony/Laravel to make it faster !'
         backImage1 = {phpLogo}
         backImage2 = {symfoLogo}
