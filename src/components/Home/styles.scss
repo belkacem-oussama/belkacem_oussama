@@ -8,9 +8,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
+  padding: 1%;
   -webkit-animation: heartbeat 2s ease-in-out infinite both;
   animation: heartbeat 5s ease-in-out infinite both;
-  padding: 3%;
 }
 
  @-webkit-keyframes heartbeat {
