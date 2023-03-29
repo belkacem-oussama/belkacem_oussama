@@ -47,7 +47,7 @@ export default function Stack() {
         image={toolLogo}
         text= 'To help me !'
         backTitle = 'Other Technologies'
-        backText = 'Git to save my code, GitHub to stock it and Bootstrap to save time !'
+        backText = 'Git to save my code, GitHub to store it and Bootstrap to save time !'
         backImage1 = {gitLogo}
         backImage2 = {gitHubLogo}
         backImage3 = {bootstrapLogo}
