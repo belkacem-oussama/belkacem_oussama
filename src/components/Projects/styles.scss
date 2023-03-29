@@ -1,0 +1,132 @@
+@use '../../styles/_vars';
+
+.projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 100%;
+    margin-bottom: 100%;
+    -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @-webkit-keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slide-in-fwd-center {
+    0% {
+      -webkit-transform: translateZ(-1400px);
+              transform: translateZ(-1400px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      opacity: 1;
+    }
+  }
+  
+
+.projects_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem;
+    border: solid 2px grey;
+    border-radius: 1rem;
+    height: 100%;
+    width: 20%;
+}
+
+.projects_card:hover{
+    animation: shadow-drop-2-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+ @keyframes shadow-drop-2-center {
+    0% {
+      transform: translateZ(0);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      transform: translateZ(50px);
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+
+.projects_card_pic{
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
+    border-radius: 1rem;
+}
+
+.projects_card_pic img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.projects_card_text{
+    width: 100%;
+    font-size: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.projects_card_text h1{
+    color: vars.$titleColor;
+
+}
+
+.projects_card_text p{
+    color: vars.$paragrapheColor;
+
+}
+
+.projects_card_text a{
+    color: vars.$textColor;
+    text-decoration: none;
+}
+
+.projects_card_text a:hover{
+  color: vars.$titleColor;
+  text-decoration: underline;
+}
+
+@media (max-width: 1064px) {
+    .projects_card_text{
+        font-size: 70%;
+    }
+  }
+
+@media (max-width: 934px) {
+    .projects{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .projects_card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+        border: solid 2px grey;
+        border-radius: 1rem;
+        height: 100%;
+        width: 90%;
+        margin: 2%;
+        font-size: 100%;
+    }
+  }
