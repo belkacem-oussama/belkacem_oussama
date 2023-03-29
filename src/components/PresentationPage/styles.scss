@@ -9,6 +9,7 @@
     margin-right: auto;
     text-align: left;
     padding: 2%;
+    margin: 1%;
     margin-bottom: 100%;
     -webkit-animation: bounce-in-top 1.1s both;
     animation: bounce-in-top 1.1s both;
@@ -127,6 +128,7 @@
     flex-direction: column;
     padding: 1%;
     font-size: 1rem;
+    border: solid red;
 }
 
 .text_introduction_text h1{
@@ -138,7 +140,7 @@
 }
 
 .text_introduction_socials img{
-    width: 10%;
+    width: 20%;
     border-radius: 100%;
     margin-top: 5%;
 }

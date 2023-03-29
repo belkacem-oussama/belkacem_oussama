@@ -18,8 +18,11 @@ export default function PresentationPage() {
             <div className='text_introduction'>
               <div className='text_introduction_text'>
               <h1>Me !</h1>
+              <br></br>
                 <p>{element.introduction} &#128516;</p>
+                <br></br>
                 <p>(N'hésite pas à découvrir mes réseaux ou mon cv)</p>
+                <br></br>
               </div>
               <div className='text_introduction_socials'>
                 <a href='https://www.linkedin.com/in/oussama-belkacem-767717196/' target='_blank'><img src={linkedInLogo}></img></a>
