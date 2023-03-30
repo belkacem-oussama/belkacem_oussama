@@ -5,19 +5,32 @@
     flex-direction: column;
     justify-content: space-evenly;
     margin-bottom: 200%;
-    border: solid;
+
+    img {
+      width: 30%;
+      height: 30%;
+      margin-left: auto;
+      margin-right: auto;
+      animation-name: spin;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+
+    }
+
+    h1{
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      color: vars.$titleColor;
+    }
+
+    .home{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.error img {
-    width: 30%;
-    height: 30%;
-    margin-left: auto;
-    margin-right: auto;
-    animation-name: spin;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-  }
-  
+/**spin img*/
   @keyframes spin {
     0% {
       transform: rotate(0deg);
@@ -26,15 +39,3 @@
       transform: rotateY(360deg);
     }
   }
-
-.error h1{
-  text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    color: white;
-}
-
-.home{
-    margin-left: auto;
-    margin-right: auto;
-}

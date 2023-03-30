@@ -8,7 +8,7 @@ export default function Thanks() {
   return (
     <div className='thanks'>
         <img src={thanksLogo}></img>
-        <h1>Your message have been sent !</h1>
+        <h1>Your message has been sent !</h1>
         <NavLink to='/' id='navlink' >Come back to Home</NavLink>
     </div>
   )

@@ -9,6 +9,14 @@
 	        animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
+html{
+  background:no-repeat linear-gradient(to bottom right, vars.$principalColor, vars.$secondaryColor);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
  @-webkit-keyframes slide-in-fwd-center {
   0% {
     -webkit-transform: translateZ(-1400px);
@@ -35,10 +43,3 @@
 }
 
 
-html{
-  background:no-repeat linear-gradient(to bottom right, vars.$principalColor, vars.$secondaryColor);
-}
-
-::-webkit-scrollbar{
-    display: none;
-}

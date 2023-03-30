@@ -29,7 +29,7 @@ export default function Home() {
   return (
       <div className='presentation'>
           <div className='presentation_title'>
-            <h1 className='title'>{welcomeMessage}</h1>
+            <h1 className='presentation_title_title'>{welcomeMessage}</h1>
           </div>
           <p>(click top left to navigate...)</p>
       </div>

@@ -51,17 +51,17 @@ export default function Contact() {
             <label>Name :</label>
             <input type='text' name='name' onChange={handleNameChange} value={formName} required ></input>
             <label>Surname :</label>
-            <input type='text' name='subject' onChange={handleSurnameChange} value={formSurname} required ></input>
+            <input type='text' name='surname' onChange={handleSurnameChange} value={formSurname} required ></input>
             <label>Phone :</label>
-            <input type='text' name='subject' onChange={handlePhoneChange} value={formPhone} ></input>
+            <input type='text' name='phone' onChange={handlePhoneChange} value={formPhone} ></input>
             <label>Mail :</label>
-            <input type='text' name='subject' onChange={handleMailChange} value={formMail} required ></input>
+            <input type='text' name='mail' onChange={handleMailChange} value={formMail} required ></input>
             <label>Location :</label>
-            <input type='text' name='subject' onChange={handleLocationChange} value={formLocation} ></input>
+            <input type='text' name='location' onChange={handleLocationChange} value={formLocation} ></input>
             <label>What can I do for you ?</label>
             <input type='text' name='subject' onChange={handleHelpChange} value={formHelp} required ></input>
             <label>How did you find this place ?</label>
-            <input type='text' name='subject' onChange={handleInfosChange} value={formInfos} ></input>
+            <input type='text' name='find' onChange={handleInfosChange} value={formInfos} ></input>
             <button className='button' >Let's go !</button>
         </form>
         }

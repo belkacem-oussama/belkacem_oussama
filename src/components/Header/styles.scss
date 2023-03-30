@@ -11,16 +11,16 @@ nav {
     display: flex;
     justify-content: flex-start;
     padding: 1em;
-}
 
-.burger-menu {
-    height: 100%;
-    width: 4em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    cursor: pointer;
+  .burger-menu {
+      height: 100%;
+      width: 4em;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: space-between;
+      cursor: pointer;
+  }
 }
 
 .burger-bar {
@@ -79,14 +79,14 @@ nav {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-}
 
-.navLink{
-  text-decoration: none;
-  text-align: center;
-  color: vars.$principalColor;
-  -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-	animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  .navLink{
+    text-decoration: none;
+    text-align: center;
+    color: vars.$principalColor;
+    -webkit-animation: slide-in-fwd-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-fwd-center 2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 }
 
  @-webkit-keyframes slide-in-fwd-center {
