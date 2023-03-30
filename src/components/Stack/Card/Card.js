@@ -18,11 +18,11 @@ function CardComponent( props ) {
             <Card className='cards_principal'>
               <Card.Img className='img' variant="top" src={image} style={{borderRadius: '1rem'}} />
               <Card.Body>
-                <Card.Title className='card_title' >{title}</Card.Title>
-                <Card.Text className='card_text' >{text}</Card.Text>
+                <Card.Title className='cards_principal_title' >{title}</Card.Title>
+                <Card.Text className='cards_principal_text' >{text}</Card.Text>
                 <Button 
                   variant="primary" 
-                  className='card_button' 
+                  className='cards_principal_button' 
                   onClick={handleShowMore}
                 >
                   Discover
@@ -31,17 +31,17 @@ function CardComponent( props ) {
             </Card>
             :
             <Card className='cards_principal'>
-              <div className='img'>
+              <div className='cards_principal_img'>
                 <Card.Img variant="top" src={backImage1} style={{borderRadius: '1rem'}}  />
                 <Card.Img variant="top" src={backImage2} style={{borderRadius: '1rem'}} />
                 <Card.Img variant="top" src={backImage3} style={{borderRadius: '1rem'}} />
               </div>
                 <Card.Body>
-                  <Card.Title className='card_title' >{backTitle}</Card.Title>
-                  <Card.Text className='card_text' >{backText}</Card.Text>
+                  <Card.Title className='cards_principal_title' >{backTitle}</Card.Title>
+                  <Card.Text className='cards_principal_text' >{backText}</Card.Text>
                   <Button 
                     variant="primary" 
-                    className='card_button' 
+                    className='cards_principal_button' 
                     onClick={handleShowMore}
                   >
                     Return

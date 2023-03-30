@@ -28,7 +28,7 @@ export default function PresentationPage() {
   useEffect(() => {
     const timerId = setTimeout(() => {
       setStatusIndex((statusIndex + 1) % statusArray.length)
-    }, 2500)
+    }, 2000)
 
     return () => {
       clearTimeout(timerId)
@@ -42,15 +42,15 @@ export default function PresentationPage() {
         <h2><span className='status_title'>I'm a </span><span className='status_name'>{statusName}</span></h2>
         <div className='text_div_presentation'>
           {presentationData.map(element => (
-            <div className='text_introduction' key={element.id} >
-              <div className='text_introduction_text'>
+            <div className='text_div_introduction' key={element.id} >
+              <div className='text_div_introduction_text'>
               <br></br>
                 <p>{element.introduction} &#128516;</p>
                 <br></br>
                 <p>(N'hésite pas à découvrir mes réseaux ou mon cv)</p>
                 <br></br>
               </div>
-              <div className='text_introduction_socials'>
+              <div className='text_div_introduction_socials'>
                 <a href='https://www.linkedin.com/in/oussama-belkacem-767717196/' target='_blank'><img src={linkedInLogo}></img></a>
                 <a href='mailto:oussama.blkc@gmail.com'><img src={gmailLogo}></img></a>
                 <a href='https://twitter.com/ob__tech' target='_blank'><img src={twitterLogo}></img></a>
@@ -59,7 +59,7 @@ export default function PresentationPage() {
               </div>
             </div>
             ))}
-            <div className='text_pic'><img src={codeLogo}></img></div>
+            <div className='text_div_pic'><img src={codeLogo}></img></div>
         </div>
       </div>
   )

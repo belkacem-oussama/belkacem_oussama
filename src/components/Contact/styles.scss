@@ -6,64 +6,66 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 100%;
-}
 
-.form_container p{
-  text-align: center;
-}
+  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 80%;
+    max-width: 600px;
 
-form{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  width: 80%;
-  max-width: 600px;
-}
+    p{
+      text-align: center;
+      color: vars.$titleColor;
+    }
 
-form input {
-  display: block;
-  width: 90%;
-  padding: 0.9rem;
-  font-size: 1rem;
-  line-height: 1.2;
-  color: vars.$textColor;
-  background-color: #f7f7f7;
-  border: none;
-  border-radius: 2rem;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-}
+    .button {
+      margin-top: 1rem;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      border-radius: 2rem;
+      text-decoration: none;
+      width: 50%;
+      height: 60px;
+      background-color: vars.$buttonColor;
+      border: none;
+      font-size: 20px;
+      font-weight: bold;
+      color: vars.$textColor;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
 
-form input:focus {
-  outline: none;
-  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
-}
+      &:hover{
+        background-color: vars.$buttonHoverColor;
+        color: #f7f7f7;
+      }
+    }
 
-form label{
-  font-size: 1.3rem;
-}
+    label{
+      font-size: 1.3rem;
+      color: vars.$titleColor;
+    }
 
-.button {
-  margin-top: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  border-radius: 2rem;
-  text-decoration: none;
-  width: 50%;
-  height: 60px;
-  background-color: #f7f7f7;
-  border: none;
-  font-size: 20px;
-  font-weight: bold;
-  color: vars.$textColor;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
+    input {
+      display: block;
+      width: 90%;
+      padding: 0.9rem;
+      font-size: 1rem;
+      line-height: 1.2;
+      color: vars.$textColor;
+      background-color: #f7f7f7;
+      border: none;
+      border-radius: 2rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+      transition: box-shadow 0.3s ease;
 
-.button:hover {
-  background-color: #333;
-  color: #f7f7f7;
+      &:focus {
+        outline: none;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
 }
 
 @media (max-width: 768px) {

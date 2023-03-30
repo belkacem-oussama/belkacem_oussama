@@ -3,30 +3,32 @@
 .thanks{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     width: 100%;
+    height: 100vh;
+
+    img{
+      width: 20%;
+      animation: rotate 2s infinite;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1{
+      width: 80%;
+      color: vars.$principalColor;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #navlink{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
-.thanks img{
-    width: 20%;
-    animation: rotate 2s infinite;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.thanks h1{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#navlink{
-    margin-left: auto;
-    margin-right: auto;
-}
-
+/**rotate img*/
 @keyframes rotate {
     0%,
     75% {
