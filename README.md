@@ -9,4 +9,4 @@ Voici mon portfolio, tu peux le consulter en cliquant [ici](https://belkacem-ous
 - SCSS
 - ReactBootstrap
 
-(new version at https://github.com/belkacem-oussama/belkacem_oussama)
+(new version at https://github.com/belkacem-oussama/belkacem-oussama-portfolio)
